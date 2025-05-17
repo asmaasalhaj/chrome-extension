@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "My Tab Saver",
+    "version": "1.0",
+    "description": "A simple extension to save my tabs",
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": {
+        "16": "icon.png"
+      }
+    },
+    "permissions": ["tabs", "storage"],
+    "host_permissions": [
+      "<all_urls>"
+    ]
+  }
+  
